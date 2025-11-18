@@ -3,6 +3,7 @@
 import pandas as pd
 import yaml
 import logging
+import yaml
 from utils.logging_config import configurar_logging
 
 logger = configurar_logging()
