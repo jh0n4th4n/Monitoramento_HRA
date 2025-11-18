@@ -1,0 +1,112 @@
+2025-11-18 09:43:52,993 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:43:53,049 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:43:53,079 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:43:53,138 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:43:57,214 [WARNING] ⚠️ Parquet não encontrado ou inválido, rodando ETL completo
+2025-11-18 09:43:57,215 [INFO] 📥 Lendo base de dados: data/solicitacoes.xlsx
+2025-11-18 09:43:57,217 [ERROR] ❌ Erro ao carregar Excel
+Traceback (most recent call last):
+  File "C:\Users\jhona\Desktop\projeto Monitoramento\core\etl.py", line 33, in preparar_base
+    df = pd.read_excel(CAMINHO_EXCEL)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jhona\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "C:\Users\jhona\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jhona\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\jhona\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/solicitacoes.xlsx'
+2025-11-18 09:45:52,301 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:45:52,330 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:45:52,340 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:45:52,350 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:45:55,163 [WARNING] ⚠️ Parquet não encontrado ou inválido, rodando ETL completo
+2025-11-18 09:45:55,163 [INFO] 📥 Lendo base de dados: data/dados_solicitacoes.xlsx
+2025-11-18 09:45:55,975 [INFO] 🧪 Base tratada com sucesso.
+2025-11-18 09:49:41,600 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:49:41,615 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:49:41,625 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:49:41,641 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:49:44,780 [WARNING] ⚠️ Parquet não encontrado ou inválido, rodando ETL completo.
+2025-11-18 09:49:44,781 [INFO] 📥 Lendo base de dados: data/dados_solicitacoes.xlsx
+2025-11-18 09:49:45,466 [INFO] ✅ Colunas carregadas: ['Número da Solicitação', 'Orgão', 'Unidade gestora', 'Tipo da solicitação', 'Número da ata', 'Objeto', 'Núcleo Pertencente', 'Data da solicitação', 'Situação  do Processo', 'Situação Atual', 'Andamento no PE Integrado', 'Comparação', 'Responsável', 'Andamento SEI', 'Encaminhado / Setor', 'SEI', 'Status da Coluna M']
+2025-11-18 09:49:45,468 [INFO] 🔗 Coluna SEI detectada como 'SEI' e convertida para string.
+2025-11-18 09:49:45,470 [WARNING] ⚠️ Não foi possível calcular lead_time (faltam colunas de data de entrada/finalização).
+2025-11-18 09:49:45,470 [INFO] 🧪 Base tratada com sucesso.
+2025-11-18 09:49:45,472 [INFO] 🔄 Coluna 'SEI' convertida para string antes de salvar Parquet.
+2025-11-18 09:49:45,527 [INFO] 💾 Base salva como Parquet em: data/solicitacoes_processadas.parquet
+2025-11-18 09:49:45,529 [ERROR] Erro ao aplicar SLA
+Traceback (most recent call last):
+  File "C:\Users\jhona\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Tipo Solicitação'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\jhona\Desktop\projeto Monitoramento\core\sla.py", line 21, in aplicar_sla
+    df["sla_final"] = df["Tipo Solicitação"].apply(lambda x: MULTIPLIERS.get(str(x).strip(), 1) * SLA_PADRAO)
+                      ~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jhona\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jhona\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Tipo Solicitação'
+2025-11-18 09:51:51,295 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:51:51,314 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:51:51,331 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:51:51,343 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:51:54,904 [INFO] 🔄 Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 09:51:54,906 [WARNING] ⚠️ Coluna 'Tipo Solicitação' não encontrada. Usando SLA padrão para todos.
+2025-11-18 09:51:54,909 [INFO] ✅ Regras de SLA aplicadas com sucesso.
+2025-11-18 09:51:54,912 [WARNING] ⚠️ Coluna 'status_macro' não encontrada para cálculo de cancelamento.
+2025-11-18 09:51:54,919 [WARNING] ⚠️ Coluna de responsável técnico não encontrada para risco.
+2025-11-18 09:51:54,923 [INFO] ⚠️ Risco calculado com sucesso.
+2025-11-18 09:54:49,543 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:54:49,555 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:54:49,564 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:54:49,591 [INFO] 🔍 Logging inicializado com sucesso.
+2025-11-18 09:54:52,556 [INFO] 🔄 Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 09:54:52,558 [WARNING] ⚠️ Coluna 'Tipo Solicitação' não encontrada. Usando SLA padrão para todos.
+2025-11-18 09:54:52,563 [INFO] ✅ Regras de SLA aplicadas com sucesso.
+2025-11-18 09:54:52,567 [WARNING] ⚠️ Coluna 'status_macro' não encontrada para cálculo de cancelamento.
+2025-11-18 09:54:52,574 [WARNING] ⚠️ Coluna de responsável técnico não encontrada para risco.
+2025-11-18 09:54:52,578 [INFO] ⚠️ Risco calculado com sucesso.
+2025-11-18 09:54:52,594 [WARNING] ⚠️ Nenhuma coluna de status encontrada. 'status_macro' definido como 'Indefinido'.
+2025-11-18 09:54:52,599 [INFO] 📊 KPIs executivos calculados com sucesso.
+2025-11-18 09:54:52,612 [WARNING] ⚠️ Nenhuma coluna de status encontrada. 'status_macro' definido como 'Indefinido'.
+2025-11-18 09:54:52,619 [INFO] 🔎 Funil operacional calculado.
+2025-11-18 09:54:53,026 [INFO] 🔥 Top processos críticos carregados.
+2025-11-18 09:54:53,131 [WARNING] ⚠️ Nenhuma coluna de status encontrada. 'status_macro' definido como 'Indefinido'.
+2025-11-18 09:54:53,139 [INFO] 📊 KPIs executivos calculados com sucesso.
+2025-11-18 09:54:53,141 [WARNING] ⚠️ Nenhuma coluna de status encontrada. 'status_macro' definido como 'Indefinido'.
+2025-11-18 09:54:53,145 [INFO] 🔎 Funil operacional calculado.
+2025-11-18 09:54:53,148 [INFO] 🔥 Top processos críticos carregados.
+2025-11-18 09:55:12,221 [INFO] 🔄 Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 09:55:12,224 [WARNING] ⚠️ Coluna 'Tipo Solicitação' não encontrada. Usando SLA padrão para todos.
+2025-11-18 09:55:12,229 [INFO] ✅ Regras de SLA aplicadas com sucesso.
+2025-11-18 09:55:12,238 [WARNING] ⚠️ Coluna 'status_macro' não encontrada para cálculo de cancelamento.
+2025-11-18 09:55:12,244 [WARNING] ⚠️ Coluna de responsável técnico não encontrada para risco.
+2025-11-18 09:55:12,249 [INFO] ⚠️ Risco calculado com sucesso.
+2025-11-18 09:55:12,269 [WARNING] ⚠️ Nenhuma coluna de status encontrada. 'status_macro' definido como 'Indefinido'.
+2025-11-18 09:55:12,278 [INFO] 📊 KPIs executivos calculados com sucesso.
+2025-11-18 09:55:12,291 [WARNING] ⚠️ Nenhuma coluna de status encontrada. 'status_macro' definido como 'Indefinido'.
+2025-11-18 09:55:12,294 [INFO] 🔎 Funil operacional calculado.
+2025-11-18 09:55:12,360 [INFO] 🔥 Top processos críticos carregados.
+2025-11-18 09:55:12,450 [WARNING] ⚠️ Nenhuma coluna de status encontrada. 'status_macro' definido como 'Indefinido'.
+2025-11-18 09:55:12,457 [INFO] 📊 KPIs executivos calculados com sucesso.
+2025-11-18 09:55:12,459 [WARNING] ⚠️ Nenhuma coluna de status encontrada. 'status_macro' definido como 'Indefinido'.
+2025-11-18 09:55:12,461 [INFO] 🔎 Funil operacional calculado.
+2025-11-18 09:55:12,463 [INFO] 🔥 Top processos críticos carregados.

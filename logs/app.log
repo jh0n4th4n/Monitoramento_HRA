@@ -1,0 +1,752 @@
+2025-11-18 10:10:45,662 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:10:45,666 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:10:45,670 - INFO - Regras de SLA aplicadas com sucesso.
+2025-11-18 10:10:45,675 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:10:45,690 - INFO - Risco calculado com sucesso.
+2025-11-18 10:10:45,706 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:10:45,713 - INFO - KPIs executivos calculados.
+2025-11-18 10:10:45,729 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:10:45,734 - INFO - Funil operacional calculado.
+2025-11-18 10:10:46,090 - INFO - Top processos críticos calculados.
+2025-11-18 10:10:46,186 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:10:46,195 - INFO - KPIs executivos calculados.
+2025-11-18 10:10:46,201 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:10:46,210 - INFO - Funil operacional calculado.
+2025-11-18 10:10:46,212 - INFO - Top processos críticos calculados.
+2025-11-18 10:11:01,463 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:11:01,467 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:11:01,472 - INFO - Regras de SLA aplicadas com sucesso.
+2025-11-18 10:11:01,480 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:11:01,495 - INFO - Risco calculado com sucesso.
+2025-11-18 10:11:01,518 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:11:01,526 - INFO - KPIs executivos calculados.
+2025-11-18 10:11:01,541 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:11:01,545 - INFO - Funil operacional calculado.
+2025-11-18 10:11:01,607 - INFO - Top processos críticos calculados.
+2025-11-18 10:11:01,703 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:11:01,710 - INFO - KPIs executivos calculados.
+2025-11-18 10:11:01,716 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:11:01,719 - INFO - Funil operacional calculado.
+2025-11-18 10:11:01,721 - INFO - Top processos críticos calculados.
+2025-11-18 10:15:52,248 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:15:52,253 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:15:52,256 - INFO - Regras de SLA aplicadas com sucesso.
+2025-11-18 10:15:52,259 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:15:52,270 - INFO - Risco calculado com sucesso.
+2025-11-18 10:15:52,312 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:15:52,324 - INFO - KPIs executivos calculados.
+2025-11-18 10:15:52,349 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:15:52,356 - INFO - Funil operacional calculado.
+2025-11-18 10:15:53,037 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:15:53,056 - INFO - Produtividade por núcleo calculada.
+2025-11-18 10:15:53,328 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:15:53,334 - INFO - KPIs executivos calculados.
+2025-11-18 10:15:53,339 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:15:53,343 - INFO - Funil operacional calculado.
+2025-11-18 10:15:53,345 - INFO - Top processos críticos calculados.
+2025-11-18 10:16:49,354 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:16:49,359 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:16:49,372 - INFO - Regras de SLA aplicadas com sucesso.
+2025-11-18 10:16:49,379 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:16:49,396 - INFO - Risco calculado com sucesso.
+2025-11-18 10:16:49,449 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:16:49,459 - INFO - KPIs executivos calculados.
+2025-11-18 10:16:49,483 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:16:49,488 - INFO - Funil operacional calculado.
+2025-11-18 10:16:49,830 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:16:49,839 - INFO - Produtividade por núcleo calculada.
+2025-11-18 10:16:50,119 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:16:50,125 - INFO - KPIs executivos calculados.
+2025-11-18 10:16:50,131 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:16:50,136 - INFO - Funil operacional calculado.
+2025-11-18 10:16:50,138 - INFO - Top processos críticos calculados.
+2025-11-18 10:33:37,998 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:33:38,002 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:33:38,012 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 10:33:38,017 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:33:38,059 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 10:33:38,108 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:33:38,114 - INFO - KPIs executivos calculados.
+2025-11-18 10:33:38,124 - INFO - KPIs avançados calculados.
+2025-11-18 10:33:38,155 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:33:38,161 - INFO - Funil operacional calculado.
+2025-11-18 10:33:38,837 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:33:38,850 - INFO - Produtividade por núcleo calculada.
+2025-11-18 10:33:39,320 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:33:39,328 - INFO - KPIs executivos calculados.
+2025-11-18 10:33:39,333 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:33:39,337 - INFO - Funil operacional calculado.
+2025-11-18 10:33:39,339 - INFO - Top processos críticos calculados.
+2025-11-18 10:34:40,697 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:34:40,703 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:34:40,719 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 10:34:40,729 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:34:40,792 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 10:34:40,849 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:34:40,857 - INFO - KPIs executivos calculados.
+2025-11-18 10:34:40,876 - INFO - KPIs avançados calculados.
+2025-11-18 10:34:40,907 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:34:40,912 - INFO - Funil operacional calculado.
+2025-11-18 10:34:41,274 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:34:41,283 - INFO - Produtividade por núcleo calculada.
+2025-11-18 10:34:41,683 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:34:41,693 - INFO - KPIs executivos calculados.
+2025-11-18 10:34:41,698 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:34:41,701 - INFO - Funil operacional calculado.
+2025-11-18 10:34:41,703 - INFO - Top processos críticos calculados.
+2025-11-18 10:43:11,484 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:43:11,488 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:43:11,499 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 10:43:11,505 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:43:11,541 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 10:43:11,620 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:43:11,633 - INFO - KPIs executivos calculados.
+2025-11-18 10:43:11,650 - INFO - KPIs avançados calculados.
+2025-11-18 10:43:11,688 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:43:11,694 - INFO - Funil operacional calculado.
+2025-11-18 10:43:13,008 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:43:13,020 - INFO - Produtividade por núcleo calculada.
+2025-11-18 10:43:13,620 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 10:43:13,728 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:43:13,736 - INFO - KPIs executivos calculados.
+2025-11-18 10:43:13,741 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:43:13,746 - INFO - Funil operacional calculado.
+2025-11-18 10:43:13,747 - INFO - Top processos críticos calculados.
+2025-11-18 10:50:43,990 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:50:43,994 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:50:44,006 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 10:50:44,013 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:50:44,071 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 10:50:44,185 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:50:44,194 - INFO - KPIs executivos calculados.
+2025-11-18 10:50:44,210 - INFO - KPIs avançados calculados.
+2025-11-18 10:50:44,266 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:50:44,275 - INFO - Funil operacional calculado.
+2025-11-18 10:50:44,850 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:50:44,860 - INFO - Produtividade por núcleo calculada.
+2025-11-18 10:50:45,547 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 10:50:45,643 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:50:45,651 - INFO - KPIs executivos calculados.
+2025-11-18 10:50:45,656 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:50:45,658 - INFO - Funil operacional calculado.
+2025-11-18 10:50:45,661 - INFO - Top processos críticos calculados.
+2025-11-18 10:51:07,797 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:51:07,802 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:51:07,808 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 10:51:07,813 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:51:07,852 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 10:51:07,916 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:07,919 - INFO - KPIs executivos calculados.
+2025-11-18 10:51:07,921 - INFO - KPIs avançados calculados.
+2025-11-18 10:51:07,963 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:07,966 - INFO - Funil operacional calculado.
+2025-11-18 10:51:07,999 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:08,005 - INFO - Produtividade por núcleo calculada.
+2025-11-18 10:51:08,247 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 10:51:08,335 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:08,339 - INFO - KPIs executivos calculados.
+2025-11-18 10:51:08,341 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:08,345 - INFO - Funil operacional calculado.
+2025-11-18 10:51:08,347 - INFO - Top processos críticos calculados.
+2025-11-18 10:51:12,782 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:51:12,786 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:51:12,797 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 10:51:12,801 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:51:12,842 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 10:51:12,932 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:12,939 - INFO - KPIs executivos calculados.
+2025-11-18 10:51:12,949 - INFO - KPIs avançados calculados.
+2025-11-18 10:51:12,980 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:12,987 - INFO - Funil operacional calculado.
+2025-11-18 10:51:13,481 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:13,489 - INFO - Produtividade por núcleo calculada.
+2025-11-18 10:51:14,063 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 10:51:14,148 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:14,157 - INFO - KPIs executivos calculados.
+2025-11-18 10:51:14,163 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:14,167 - INFO - Funil operacional calculado.
+2025-11-18 10:51:14,168 - INFO - Top processos críticos calculados.
+2025-11-18 10:51:26,338 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:51:26,342 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:51:26,357 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 10:51:26,362 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:51:26,403 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 10:51:26,483 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:26,490 - INFO - KPIs executivos calculados.
+2025-11-18 10:51:26,498 - INFO - KPIs avançados calculados.
+2025-11-18 10:51:26,522 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:26,526 - INFO - Funil operacional calculado.
+2025-11-18 10:51:26,955 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:26,965 - INFO - Produtividade por núcleo calculada.
+2025-11-18 10:51:27,473 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 10:51:27,553 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:27,559 - INFO - KPIs executivos calculados.
+2025-11-18 10:51:27,566 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:27,570 - INFO - Funil operacional calculado.
+2025-11-18 10:51:27,571 - INFO - Top processos críticos calculados.
+2025-11-18 10:51:34,123 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 10:51:34,127 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 10:51:34,139 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 10:51:34,144 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 10:51:34,192 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 10:51:34,265 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:34,274 - INFO - KPIs executivos calculados.
+2025-11-18 10:51:34,283 - INFO - KPIs avançados calculados.
+2025-11-18 10:51:34,308 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:34,311 - INFO - Funil operacional calculado.
+2025-11-18 10:51:34,755 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:34,764 - INFO - Produtividade por núcleo calculada.
+2025-11-18 10:51:35,291 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 10:51:35,373 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:35,382 - INFO - KPIs executivos calculados.
+2025-11-18 10:51:35,386 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 10:51:35,391 - INFO - Funil operacional calculado.
+2025-11-18 10:51:35,393 - INFO - Top processos críticos calculados.
+2025-11-18 11:01:38,301 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 11:01:38,305 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 11:01:38,318 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 11:01:38,324 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 11:01:38,375 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 11:01:38,462 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:01:38,472 - INFO - KPIs executivos calculados.
+2025-11-18 11:01:38,486 - INFO - KPIs avançados calculados.
+2025-11-18 11:01:38,526 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:01:38,568 - INFO - Funil operacional calculado.
+2025-11-18 11:01:39,156 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:01:39,168 - INFO - Produtividade por núcleo calculada.
+2025-11-18 11:01:39,788 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 11:01:39,880 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:01:39,886 - INFO - KPIs executivos calculados.
+2025-11-18 11:01:39,891 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:01:39,895 - INFO - Funil operacional calculado.
+2025-11-18 11:01:39,900 - INFO - Top processos críticos calculados.
+2025-11-18 11:09:34,313 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 11:09:34,319 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 11:09:34,334 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 11:09:34,342 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 11:09:34,420 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 11:09:34,525 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:09:34,535 - INFO - KPIs executivos calculados.
+2025-11-18 11:09:34,563 - INFO - KPIs avançados calculados.
+2025-11-18 11:09:34,588 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:09:34,594 - INFO - Funil operacional calculado.
+2025-11-18 11:09:35,224 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:09:35,235 - INFO - Produtividade por núcleo calculada.
+2025-11-18 11:09:35,966 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 11:09:36,052 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:09:36,059 - INFO - KPIs executivos calculados.
+2025-11-18 11:09:36,064 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:09:36,066 - INFO - Funil operacional calculado.
+2025-11-18 11:09:36,068 - INFO - Top processos críticos calculados.
+2025-11-18 11:16:10,502 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 11:16:10,506 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 11:16:10,513 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 11:16:10,523 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 11:16:10,665 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 11:16:10,772 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:16:10,785 - INFO - KPIs executivos calculados.
+2025-11-18 11:16:10,837 - INFO - KPIs avançados calculados.
+2025-11-18 11:16:10,868 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:16:10,875 - INFO - Funil operacional calculado.
+2025-11-18 11:16:11,547 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:16:11,562 - INFO - Produtividade por núcleo calculada.
+2025-11-18 11:16:12,277 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 11:16:12,373 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:16:12,383 - INFO - KPIs executivos calculados.
+2025-11-18 11:16:12,387 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:16:12,390 - INFO - Funil operacional calculado.
+2025-11-18 11:16:12,392 - INFO - Top processos críticos calculados.
+2025-11-18 11:24:53,534 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 11:24:53,537 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 11:24:53,559 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 11:24:53,567 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 11:24:53,620 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 11:24:53,736 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:24:53,748 - INFO - KPIs executivos calculados.
+2025-11-18 11:24:53,764 - INFO - KPIs avançados calculados.
+2025-11-18 11:24:53,790 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:24:53,807 - INFO - Funil operacional calculado.
+2025-11-18 11:24:54,594 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:24:54,606 - INFO - Produtividade por núcleo calculada.
+2025-11-18 11:24:55,258 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 11:24:55,355 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:24:55,365 - INFO - KPIs executivos calculados.
+2025-11-18 11:24:55,370 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:24:55,373 - INFO - Funil operacional calculado.
+2025-11-18 11:24:55,375 - INFO - Top processos críticos calculados.
+2025-11-18 11:32:41,100 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 11:32:41,105 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 11:32:41,122 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 11:32:41,129 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 11:32:41,188 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 11:32:41,297 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:32:41,309 - INFO - KPIs executivos calculados.
+2025-11-18 11:32:41,333 - INFO - KPIs avançados calculados.
+2025-11-18 11:32:41,406 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:32:41,421 - INFO - Funil operacional calculado.
+2025-11-18 11:32:42,181 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:32:42,193 - INFO - Produtividade por núcleo calculada.
+2025-11-18 11:32:42,799 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 11:32:42,886 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:32:42,895 - INFO - KPIs executivos calculados.
+2025-11-18 11:32:42,900 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:32:42,903 - INFO - Funil operacional calculado.
+2025-11-18 11:32:42,905 - INFO - Top processos críticos calculados.
+2025-11-18 11:46:24,555 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 11:46:24,559 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 11:46:24,568 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 11:46:24,574 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 11:46:24,653 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 11:46:24,749 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:46:24,763 - INFO - KPIs executivos calculados.
+2025-11-18 11:46:24,783 - INFO - KPIs avançados calculados.
+2025-11-18 11:46:24,809 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:46:24,815 - INFO - Funil operacional calculado.
+2025-11-18 11:46:25,522 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:46:25,535 - INFO - Produtividade por núcleo calculada.
+2025-11-18 11:46:26,181 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 11:46:26,265 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:46:26,273 - INFO - KPIs executivos calculados.
+2025-11-18 11:46:26,277 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:46:26,281 - INFO - Funil operacional calculado.
+2025-11-18 11:46:26,283 - INFO - Top processos críticos calculados.
+2025-11-18 11:55:59,488 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 11:55:59,492 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 11:55:59,501 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 11:55:59,509 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 11:55:59,599 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 11:55:59,712 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:55:59,725 - INFO - KPIs executivos calculados.
+2025-11-18 11:55:59,744 - INFO - KPIs avançados calculados.
+2025-11-18 11:55:59,773 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:55:59,778 - INFO - Funil operacional calculado.
+2025-11-18 11:56:00,527 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:56:00,540 - INFO - Produtividade por núcleo calculada.
+2025-11-18 11:56:01,182 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 11:56:01,262 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:56:01,270 - INFO - KPIs executivos calculados.
+2025-11-18 11:56:01,274 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 11:56:01,278 - INFO - Funil operacional calculado.
+2025-11-18 11:56:01,279 - INFO - Top processos críticos calculados.
+2025-11-18 12:04:49,785 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:04:49,791 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:04:49,804 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:04:49,812 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:04:49,896 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:04:49,991 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:04:50,002 - INFO - KPIs executivos calculados.
+2025-11-18 12:04:50,037 - INFO - KPIs avançados calculados.
+2025-11-18 12:04:50,114 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:04:50,136 - INFO - Funil operacional calculado.
+2025-11-18 12:04:50,795 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:04:50,805 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:04:51,491 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:04:51,593 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:04:51,601 - INFO - KPIs executivos calculados.
+2025-11-18 12:04:51,607 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:04:51,612 - INFO - Funil operacional calculado.
+2025-11-18 12:04:51,614 - INFO - Top processos críticos calculados.
+2025-11-18 12:13:18,880 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:13:18,910 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:13:18,935 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:13:18,946 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:13:19,015 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:13:19,144 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:13:19,150 - INFO - KPIs executivos calculados.
+2025-11-18 12:13:19,162 - INFO - KPIs avançados calculados.
+2025-11-18 12:13:19,201 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:13:19,219 - INFO - Funil operacional calculado.
+2025-11-18 12:13:20,179 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:13:20,189 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:13:20,800 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:13:20,897 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:13:20,906 - INFO - KPIs executivos calculados.
+2025-11-18 12:13:20,910 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:13:20,913 - INFO - Funil operacional calculado.
+2025-11-18 12:13:20,915 - INFO - Top processos críticos calculados.
+2025-11-18 12:21:20,849 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:21:20,855 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:21:20,869 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:21:20,881 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:21:20,970 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:21:21,079 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:21:21,088 - INFO - KPIs executivos calculados.
+2025-11-18 12:21:21,102 - INFO - KPIs avançados calculados.
+2025-11-18 12:21:21,134 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:21:21,138 - INFO - Funil operacional calculado.
+2025-11-18 12:21:22,034 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:21:22,047 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:21:22,934 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:21:23,035 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:21:23,040 - INFO - KPIs executivos calculados.
+2025-11-18 12:21:23,047 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:21:23,050 - INFO - Funil operacional calculado.
+2025-11-18 12:21:23,052 - INFO - Top processos críticos calculados.
+2025-11-18 12:22:47,246 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:22:47,250 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:22:47,265 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:22:47,272 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:22:47,324 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:22:47,404 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:22:47,410 - INFO - KPIs executivos calculados.
+2025-11-18 12:22:47,418 - INFO - KPIs avançados calculados.
+2025-11-18 12:22:47,433 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:22:47,437 - INFO - Funil operacional calculado.
+2025-11-18 12:22:48,151 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:22:48,157 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:22:48,912 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:22:49,030 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:22:49,038 - INFO - KPIs executivos calculados.
+2025-11-18 12:22:49,043 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:22:49,049 - INFO - Funil operacional calculado.
+2025-11-18 12:22:49,050 - INFO - Top processos críticos calculados.
+2025-11-18 12:22:59,661 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:22:59,665 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:22:59,674 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:22:59,679 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:22:59,718 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:22:59,791 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:22:59,800 - INFO - KPIs executivos calculados.
+2025-11-18 12:22:59,807 - INFO - KPIs avançados calculados.
+2025-11-18 12:22:59,818 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:22:59,821 - INFO - Funil operacional calculado.
+2025-11-18 12:23:00,472 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:00,481 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:23:01,250 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:23:01,343 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:01,352 - INFO - KPIs executivos calculados.
+2025-11-18 12:23:01,356 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:01,359 - INFO - Funil operacional calculado.
+2025-11-18 12:23:01,360 - INFO - Top processos críticos calculados.
+2025-11-18 12:23:18,214 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:23:18,218 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:23:18,232 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:23:18,237 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:23:18,284 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:23:18,363 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:18,367 - INFO - KPIs executivos calculados.
+2025-11-18 12:23:18,373 - INFO - KPIs avançados calculados.
+2025-11-18 12:23:18,387 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:18,390 - INFO - Funil operacional calculado.
+2025-11-18 12:23:18,991 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:19,000 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:23:19,637 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:23:19,729 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:19,734 - INFO - KPIs executivos calculados.
+2025-11-18 12:23:19,736 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:19,738 - INFO - Funil operacional calculado.
+2025-11-18 12:23:19,740 - INFO - Top processos críticos calculados.
+2025-11-18 12:23:26,413 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:23:26,416 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:23:26,425 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:23:26,435 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:23:26,481 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:23:26,564 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:26,568 - INFO - KPIs executivos calculados.
+2025-11-18 12:23:26,575 - INFO - KPIs avançados calculados.
+2025-11-18 12:23:26,586 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:26,590 - INFO - Funil operacional calculado.
+2025-11-18 12:23:27,148 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:27,155 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:23:27,764 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:23:27,848 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:27,855 - INFO - KPIs executivos calculados.
+2025-11-18 12:23:27,860 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:23:27,863 - INFO - Funil operacional calculado.
+2025-11-18 12:23:27,865 - INFO - Top processos críticos calculados.
+2025-11-18 12:24:00,091 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:24:00,097 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:24:00,125 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:24:00,134 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:24:00,195 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:24:00,279 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:24:00,289 - INFO - KPIs executivos calculados.
+2025-11-18 12:24:00,299 - INFO - KPIs avançados calculados.
+2025-11-18 12:24:00,315 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:24:00,320 - INFO - Funil operacional calculado.
+2025-11-18 12:24:01,063 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:24:01,106 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:24:01,844 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:24:01,929 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:24:01,935 - INFO - KPIs executivos calculados.
+2025-11-18 12:24:01,940 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:24:01,944 - INFO - Funil operacional calculado.
+2025-11-18 12:24:01,945 - INFO - Top processos críticos calculados.
+2025-11-18 12:32:07,169 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:32:07,173 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:32:07,189 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:32:07,193 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:32:07,241 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:32:07,406 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:32:07,423 - INFO - KPIs executivos calculados.
+2025-11-18 12:32:07,435 - INFO - KPIs avançados calculados.
+2025-11-18 12:32:07,455 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:32:07,460 - INFO - Funil operacional calculado.
+2025-11-18 12:32:08,365 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:32:08,375 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:32:09,094 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:32:09,173 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:32:09,180 - INFO - KPIs executivos calculados.
+2025-11-18 12:32:09,184 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:32:09,188 - INFO - Funil operacional calculado.
+2025-11-18 12:32:09,189 - INFO - Top processos críticos calculados.
+2025-11-18 12:33:19,964 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:33:19,968 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:33:19,987 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:33:19,995 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:33:20,052 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:33:20,137 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:33:20,147 - INFO - KPIs executivos calculados.
+2025-11-18 12:33:20,157 - INFO - KPIs avançados calculados.
+2025-11-18 12:33:20,181 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:33:20,187 - INFO - Funil operacional calculado.
+2025-11-18 12:33:21,036 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:33:21,045 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:33:21,712 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:33:21,799 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:33:21,809 - INFO - KPIs executivos calculados.
+2025-11-18 12:33:21,813 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:33:21,816 - INFO - Funil operacional calculado.
+2025-11-18 12:33:21,818 - INFO - Top processos críticos calculados.
+2025-11-18 12:40:57,609 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:40:57,614 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:40:57,627 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:40:57,632 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:40:57,706 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:40:57,861 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:40:57,877 - INFO - KPIs executivos calculados.
+2025-11-18 12:40:57,895 - INFO - KPIs avançados calculados.
+2025-11-18 12:40:57,957 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:40:57,961 - INFO - Funil operacional calculado.
+2025-11-18 12:40:58,828 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 12:40:58,838 - INFO - Produtividade por núcleo calculada.
+2025-11-18 12:40:59,545 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 12:40:59,691 - INFO - Top processos críticos calculados.
+2025-11-18 12:41:52,181 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:41:52,187 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:41:52,208 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:41:52,219 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:41:52,276 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:41:52,408 - INFO - KPIs avançados calculados.
+2025-11-18 12:47:42,725 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:47:42,733 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:47:42,753 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:47:42,759 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:47:42,818 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:47:42,994 - INFO - KPIs avançados calculados.
+2025-11-18 12:47:49,883 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:47:49,887 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:47:49,895 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:47:49,900 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:47:49,936 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:47:50,033 - INFO - KPIs avançados calculados.
+2025-11-18 12:58:17,244 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:58:17,249 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:58:17,258 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:58:17,262 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:58:17,321 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:58:17,479 - INFO - KPIs avançados calculados.
+2025-11-18 12:58:24,041 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 12:58:24,045 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 12:58:24,053 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 12:58:24,059 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 12:58:24,100 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 12:58:24,197 - INFO - KPIs avançados calculados.
+2025-11-18 13:09:47,261 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:09:47,265 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:09:47,285 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:09:47,294 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:09:47,358 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:09:47,501 - INFO - KPIs avançados calculados.
+2025-11-18 13:09:49,482 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:09:49,490 - INFO - KPIs executivos calculados.
+2025-11-18 13:09:49,496 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:09:49,501 - INFO - Funil operacional calculado.
+2025-11-18 13:09:49,503 - INFO - Top processos críticos calculados.
+2025-11-18 13:10:02,957 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:10:02,961 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:10:02,970 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:10:02,975 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:10:03,011 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:10:03,113 - INFO - KPIs avançados calculados.
+2025-11-18 13:10:04,633 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:10:04,642 - INFO - KPIs executivos calculados.
+2025-11-18 13:10:04,647 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:10:04,651 - INFO - Funil operacional calculado.
+2025-11-18 13:10:04,655 - INFO - Top processos críticos calculados.
+2025-11-18 13:10:04,788 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:10:04,791 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:10:04,797 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:10:04,801 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:10:04,839 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:10:04,939 - INFO - KPIs avançados calculados.
+2025-11-18 13:10:06,453 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:10:06,460 - INFO - KPIs executivos calculados.
+2025-11-18 13:10:06,465 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:10:06,469 - INFO - Funil operacional calculado.
+2025-11-18 13:10:06,471 - INFO - Top processos críticos calculados.
+2025-11-18 13:10:13,613 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:10:13,617 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:10:13,624 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:10:13,630 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:10:13,665 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:10:13,760 - INFO - KPIs avançados calculados.
+2025-11-18 13:10:15,257 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:10:15,268 - INFO - KPIs executivos calculados.
+2025-11-18 13:10:15,274 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:10:15,279 - INFO - Funil operacional calculado.
+2025-11-18 13:10:15,281 - INFO - Top processos críticos calculados.
+2025-11-18 13:25:00,017 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:25:00,022 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:25:00,032 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:25:00,037 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:25:00,109 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:25:00,273 - INFO - KPIs avançados calculados.
+2025-11-18 13:25:02,018 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:25:02,024 - INFO - KPIs executivos calculados.
+2025-11-18 13:25:02,030 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:25:02,032 - INFO - Funil operacional calculado.
+2025-11-18 13:25:02,034 - INFO - Top processos críticos calculados.
+2025-11-18 13:25:08,422 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:25:08,426 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:25:08,433 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:25:08,439 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:25:08,478 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:25:08,569 - INFO - KPIs avançados calculados.
+2025-11-18 13:25:10,125 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:25:10,133 - INFO - KPIs executivos calculados.
+2025-11-18 13:25:10,137 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:25:10,141 - INFO - Funil operacional calculado.
+2025-11-18 13:25:10,143 - INFO - Top processos críticos calculados.
+2025-11-18 13:25:23,779 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:25:23,783 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:25:23,790 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:25:23,794 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:25:23,833 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:25:23,938 - INFO - KPIs avançados calculados.
+2025-11-18 13:25:25,447 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:25:25,460 - INFO - KPIs executivos calculados.
+2025-11-18 13:25:25,464 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:25:25,467 - INFO - Funil operacional calculado.
+2025-11-18 13:25:25,469 - INFO - Top processos críticos calculados.
+2025-11-18 13:26:50,161 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:26:50,164 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:26:50,169 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:26:50,173 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:26:50,208 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:26:50,359 - INFO - KPIs avançados calculados.
+2025-11-18 13:26:52,269 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:26:52,279 - INFO - KPIs executivos calculados.
+2025-11-18 13:26:52,283 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:26:52,286 - INFO - Funil operacional calculado.
+2025-11-18 13:26:52,287 - INFO - Top processos críticos calculados.
+2025-11-18 13:26:53,617 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:26:53,622 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:26:53,635 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:26:53,641 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:26:53,678 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:26:53,781 - INFO - KPIs avançados calculados.
+2025-11-18 13:26:55,234 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:26:55,244 - INFO - KPIs executivos calculados.
+2025-11-18 13:26:55,249 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:26:55,253 - INFO - Funil operacional calculado.
+2025-11-18 13:26:55,255 - INFO - Top processos críticos calculados.
+2025-11-18 13:35:12,781 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:35:12,785 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:35:12,792 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:35:12,799 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:35:12,878 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:35:13,052 - INFO - KPIs avançados calculados.
+2025-11-18 13:35:14,969 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:14,978 - INFO - KPIs executivos calculados.
+2025-11-18 13:35:14,982 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:14,985 - INFO - Funil operacional calculado.
+2025-11-18 13:35:14,986 - INFO - Top processos críticos calculados.
+2025-11-18 13:35:25,145 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:35:25,149 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:35:25,160 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:35:25,166 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:35:25,206 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:35:25,308 - INFO - KPIs avançados calculados.
+2025-11-18 13:35:26,795 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:26,805 - INFO - KPIs executivos calculados.
+2025-11-18 13:35:26,809 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:26,814 - INFO - Funil operacional calculado.
+2025-11-18 13:35:26,816 - INFO - Top processos críticos calculados.
+2025-11-18 13:35:27,886 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:35:27,890 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:35:27,897 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:35:27,902 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:35:27,939 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:35:28,033 - INFO - KPIs avançados calculados.
+2025-11-18 13:35:29,484 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:29,490 - INFO - KPIs executivos calculados.
+2025-11-18 13:35:29,497 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:29,502 - INFO - Funil operacional calculado.
+2025-11-18 13:35:29,504 - INFO - Top processos críticos calculados.
+2025-11-18 13:35:37,136 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:35:37,142 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:35:37,152 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:35:37,158 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:35:37,195 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:35:37,298 - INFO - KPIs avançados calculados.
+2025-11-18 13:35:38,842 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:38,847 - INFO - KPIs executivos calculados.
+2025-11-18 13:35:38,851 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:38,856 - INFO - Funil operacional calculado.
+2025-11-18 13:35:38,859 - INFO - Top processos críticos calculados.
+2025-11-18 13:35:40,037 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:35:40,042 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:35:40,051 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:35:40,056 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:35:40,091 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:35:40,198 - INFO - KPIs avançados calculados.
+2025-11-18 13:35:41,758 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:41,769 - INFO - KPIs executivos calculados.
+2025-11-18 13:35:41,776 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:41,783 - INFO - Funil operacional calculado.
+2025-11-18 13:35:41,786 - INFO - Top processos críticos calculados.
+2025-11-18 13:35:47,851 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:35:47,856 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:35:47,866 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:35:47,870 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:35:47,915 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:35:48,009 - INFO - KPIs avançados calculados.
+2025-11-18 13:35:49,651 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:49,661 - INFO - KPIs executivos calculados.
+2025-11-18 13:35:49,666 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:49,669 - INFO - Funil operacional calculado.
+2025-11-18 13:35:49,672 - INFO - Top processos críticos calculados.
+2025-11-18 13:35:50,878 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:35:50,882 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:35:50,891 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:35:50,896 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:35:50,931 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:35:51,026 - INFO - KPIs avançados calculados.
+2025-11-18 13:35:52,475 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:52,484 - INFO - KPIs executivos calculados.
+2025-11-18 13:35:52,489 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:35:52,494 - INFO - Funil operacional calculado.
+2025-11-18 13:35:52,495 - INFO - Top processos críticos calculados.
+2025-11-18 13:35:59,273 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:35:59,277 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:35:59,291 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:35:59,295 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:35:59,331 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:35:59,436 - INFO - KPIs avançados calculados.
+2025-11-18 13:36:00,993 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:36:01,002 - INFO - KPIs executivos calculados.
+2025-11-18 13:36:01,006 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:36:01,009 - INFO - Funil operacional calculado.
+2025-11-18 13:36:01,012 - INFO - Top processos críticos calculados.
+2025-11-18 13:36:02,261 - INFO - Base carregada de Parquet: data/solicitacoes_processadas.parquet
+2025-11-18 13:36:02,265 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 13:36:02,272 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 13:36:02,277 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 13:36:02,314 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 13:36:02,422 - INFO - KPIs avançados calculados.
+2025-11-18 13:36:03,955 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:36:03,965 - INFO - KPIs executivos calculados.
+2025-11-18 13:36:03,970 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 13:36:03,973 - INFO - Funil operacional calculado.
+2025-11-18 13:36:03,975 - INFO - Top processos críticos calculados.

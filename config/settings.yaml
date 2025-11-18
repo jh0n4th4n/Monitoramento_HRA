@@ -1,0 +1,23 @@
+geral:
+  caminho_excel: "data/dados_solicitacoes.xlsx"      # ou caminho completo do seu arquivo
+  default_date: "2000-01-01"
+  salvar_parquet: true
+  caminho_parquet: "data/solicitacoes_processadas.parquet"
+
+sla:
+  sla_padrao: 30  # dias base
+  multipliers:
+    "Dispensa": 1
+    "Pregão": 2
+    "Pregao": 2
+    "Inexigibilidade": 2
+  limite_atraso_severo: 120
+
+risco:
+  pesos:
+    atraso: 30
+    cancelado: 40
+    lead_time_extremo: 20
+    falha_sei: 10
+    sem_responsavel: 15
+  limite_lead_time_extremo: 180
