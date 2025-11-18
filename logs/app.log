@@ -750,3 +750,68 @@
 2025-11-18 13:36:03,970 - INFO - status_macro criado a partir de 'Situação  do Processo'.
 2025-11-18 13:36:03,973 - INFO - Funil operacional calculado.
 2025-11-18 13:36:03,975 - INFO - Top processos críticos calculados.
+2025-11-18 14:17:03,509 - INFO - Configurações carregadas de C:\Users\jhona\Desktop\portal-cartilha\Monitoramento_HRA\config\settings.yaml.
+2025-11-18 14:17:06,039 - INFO - Base carregada de Parquet: data\solicitacoes_processadas.parquet
+2025-11-18 14:17:06,046 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 14:17:06,071 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 14:17:06,077 - WARNING - Coluna 'status_macro' não encontrada para risco de cancelamento.
+2025-11-18 14:17:06,124 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 14:17:06,300 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 14:17:06,307 - INFO - KPIs executivos calculados.
+2025-11-18 14:17:06,319 - INFO - KPIs avançados calculados.
+2025-11-18 14:17:06,368 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 14:17:06,376 - INFO - Funil operacional calculado.
+2025-11-18 14:17:08,546 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 14:17:08,562 - INFO - Produtividade por núcleo calculada.
+2025-11-18 14:17:09,335 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 14:17:09,437 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 14:17:09,444 - INFO - KPIs executivos calculados.
+2025-11-18 14:17:09,449 - INFO - status_macro criado a partir de 'Situação  do Processo'.
+2025-11-18 14:17:09,451 - INFO - Funil operacional calculado.
+2025-11-18 14:17:09,453 - INFO - Top processos críticos calculados.
+2025-11-18 14:32:52,751 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 14:32:52,761 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 14:32:52,812 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 14:32:52,964 - INFO - KPIs executivos calculados.
+2025-11-18 14:32:52,981 - INFO - KPIs avançados calculados.
+2025-11-18 14:32:53,044 - INFO - Funil operacional calculado.
+2025-11-18 14:32:54,000 - INFO - Produtividade por núcleo calculada.
+2025-11-18 14:32:54,951 - INFO - 📉 Tabela de missing (incluindo brancos) gerada.
+2025-11-18 14:32:55,117 - INFO - KPIs executivos calculados.
+2025-11-18 14:32:55,123 - INFO - Funil operacional calculado.
+2025-11-18 14:32:55,126 - INFO - Top processos críticos calculados.
+2025-11-18 14:33:45,470 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 14:33:45,477 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 14:33:45,539 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 14:33:45,674 - INFO - KPIs avançados calculados.
+2025-11-18 14:33:47,334 - INFO - KPIs executivos calculados.
+2025-11-18 14:33:47,341 - INFO - Funil operacional calculado.
+2025-11-18 14:33:47,344 - INFO - Top processos críticos calculados.
+2025-11-18 14:33:52,729 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 14:33:52,739 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 14:33:52,775 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 14:33:52,880 - INFO - KPIs avançados calculados.
+2025-11-18 14:33:54,454 - INFO - KPIs executivos calculados.
+2025-11-18 14:33:54,458 - INFO - Funil operacional calculado.
+2025-11-18 14:33:54,460 - INFO - Top processos críticos calculados.
+2025-11-18 14:33:55,164 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 14:33:55,173 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 14:33:55,215 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 14:33:55,320 - INFO - KPIs avançados calculados.
+2025-11-18 14:33:56,893 - INFO - KPIs executivos calculados.
+2025-11-18 14:33:56,898 - INFO - Funil operacional calculado.
+2025-11-18 14:33:56,901 - INFO - Top processos críticos calculados.
+2025-11-18 14:34:02,439 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 14:34:02,451 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 14:34:02,492 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 14:34:02,602 - INFO - KPIs avançados calculados.
+2025-11-18 14:34:04,150 - INFO - KPIs executivos calculados.
+2025-11-18 14:34:04,153 - INFO - Funil operacional calculado.
+2025-11-18 14:34:04,159 - INFO - Top processos críticos calculados.
+2025-11-18 14:34:05,180 - INFO - SLA calculado com base na coluna 'Tipo da solicitação'.
+2025-11-18 14:34:05,190 - INFO - Regras de SLA e faixas de lead_time aplicadas com sucesso.
+2025-11-18 14:34:05,239 - INFO - Risco calculado com sucesso com dimensões detalhadas.
+2025-11-18 14:34:05,345 - INFO - KPIs avançados calculados.
+2025-11-18 14:34:06,971 - INFO - KPIs executivos calculados.
+2025-11-18 14:34:06,974 - INFO - Funil operacional calculado.
+2025-11-18 14:34:06,977 - INFO - Top processos críticos calculados.

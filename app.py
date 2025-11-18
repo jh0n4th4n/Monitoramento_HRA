@@ -10,6 +10,7 @@ st.set_page_config(
     page_title="Monitoramento de Solicitações",
     page_icon="📈",
     layout="wide"
+    initial_sidebar_state="expanded"
 )
 
 st.title("📊 Monitoramento Estratégico de Solicitações")
