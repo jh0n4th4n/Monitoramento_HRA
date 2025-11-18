@@ -1,34 +1,36 @@
-# core/sla.py
+# core/etl.py
 
+from pathlib import Path
 import logging
-from typing import Iterable
 
-import numpy as np
 import pandas as pd
 
+# -----------------------------------------------------------------------------
+# LOGGING SIMPLES (FUNCIONA LOCAL E NA NUVEM)
+# -----------------------------------------------------------------------------
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# -----------------------------------------------------------------------------
+# CAMINHOS DE ARQUIVOS
+# -----------------------------------------------------------------------------
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "data"
 
-# =========================
-# TABELA PROFISSIONAL DE SLA PADRÃO
-# =========================
-# Ajuste esses valores conforme a política do HRA
-SLA_PADRAO = {
-    "adesao": 20,     # dias
-    "arp": 30,        # dias
-    "registro": 25,   # dias
-    "outros": 15,     # fallback
-}
+CAMINHO_EXCEL = DATA_DIR / "solicitacoes.xlsx"
+CAMINHO_PARQUET = DATA_DIR / "solicitacoes.parquet"
+
+DEFAULT_DATE = pd.to_datetime("2000-01-01")
 
 
-# =========================
-# FUNÇÕES DE APOIO
-# =========================
-
-def achar_coluna(df: pd.DataFrame, possiveis: Iterable[str]) -> str | None:
+# -----------------------------------------------------------------------------
+# FUNÇÕES AUXILIARES
+# -----------------------------------------------------------------------------
+def achar_coluna(df: pd.DataFrame, possiveis) -> str | None:
     """
-    Procura uma coluna no DataFrame considerando variações de nome
-    (diferença de acento, espaços, maiúsculas/minúsculas).
+    Procura uma coluna no DataFrame considerando variações de nome.
+    Exemplo:
+        achar_coluna(df, ["Orgão", "Órgão"]) -> retorna o nome real encontrado.
     """
     candidatos_normalizados = [p.lower().strip() for p in possiveis]
     for coluna in df.columns:
@@ -37,87 +39,210 @@ def achar_coluna(df: pd.DataFrame, possiveis: Iterable[str]) -> str | None:
     return None
 
 
-def detectar_tipo_simplificado(tipo_str: str) -> str:
+def _criar_status_macro(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Classifica o tipo da solicitação em categorias simplificadas
-    para aplicação de SLA.
+    Cria a coluna status_macro a partir de 'Situação  do Processo' (ou similar).
     """
-    if not isinstance(tipo_str, str):
-        return "outros"
+    possiveis_status = [
+        "Situação  do Processo",
+        "Situação do Processo",
+        "Situação Processo",
+    ]
+    col_status = achar_coluna(df, possiveis_status)
 
-    t = tipo_str.lower()
+    if col_status is not None:
+        s = df[col_status].astype(str).str.strip().str.lower()
 
-    # Exemplos – ajuste conforme os tipos reais da sua planilha
-    if "adesão" in t or "adesao" in t:
-        return "adesao"
-    if "ata de registro" in t or "arp" in t:
-        return "arp"
-    if "registro" in t or "registro de preços" in t:
-        return "registro"
+        def map_status(txt: str) -> str:
+            if "cancel" in txt:
+                return "Cancelado"
+            if "indefer" in txt or "defer" in txt or "finaliz" in txt or "conclu" in txt:
+                return "Concluído"
+            if (
+                "andamento" in txt
+                or "analise" in txt
+                or "análise" in txt
+                or "pendente" in txt
+            ):
+                return "Em andamento"
+            return "Outro"
 
-    return "outros"
+        df["status_macro"] = s.apply(map_status)
+        logger.info(f"status_macro criado a partir de '{col_status}'.")
+    else:
+        df["status_macro"] = "Indefinido"
+        logger.warning(
+            "Coluna de situação do processo não encontrada; "
+            "status_macro = 'Indefinido'."
+        )
+
+    return df
 
 
-# =========================
-# FUNÇÃO PRINCIPAL
-# =========================
-
-def aplicar_sla(df: pd.DataFrame) -> pd.DataFrame:
+def _criar_lead_time(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Aplica regras de SLA ao DataFrame:
-
-    - tipo_simplificado: categoria do tipo da solicitação
-    - sla_manual: dias informados manualmente (se existir coluna adequada)
-    - sla_auto: SLA calculado automaticamente a partir do tipo
-    - sla_final: se houver SLA manual, ele tem prioridade; senão, usa o automático
-    - atrasado: True se lead_time > sla_final
+    Cria a coluna lead_time (dias desde a data da solicitação até hoje).
     """
-    df = df.copy()
+    possiveis_data_solic = ["Data da solicitação", "Data da Solicitação", "data_solicitacao"]
+    col_data_solic = achar_coluna(df, possiveis_data_solic)
 
-    # 1) Tipo da solicitação -> tipo_simplificado
-    col_tipo = achar_coluna(
-        df,
-        ["Tipo da solicitação", "Tipo da Solicitação", "Tipo Solicitação", "tipo_solicitacao"],
-    )
+    if col_data_solic is not None:
+        df[col_data_solic] = pd.to_datetime(
+            df[col_data_solic],
+            errors="coerce",
+        ).fillna(DEFAULT_DATE)
+        hoje = pd.Timestamp("today").normalize()
+        df["lead_time"] = (hoje - df[col_data_solic]).dt.days.astype(int)
+        logger.info(f"lead_time calculado a partir de '{col_data_solic}'.")
+    else:
+        df["lead_time"] = 0
+        logger.warning(
+            "Coluna de data da solicitação não encontrada; lead_time definido como 0."
+        )
+
+    return df
+
+
+def _enriquecer_campos(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Cria variáveis derivadas:
+    - tem_sei
+    - tem_andamento_sei
+    - complexidade_aprox (Baixa / Média / Alta)
+    """
+    # SEI
+    col_sei = achar_coluna(df, ["SEI"])
+    if col_sei is not None:
+        df[col_sei] = df[col_sei].astype(str)
+        df["tem_sei"] = df[col_sei].astype(str).str.strip().str.len() > 0
+        logger.info(f"Flag tem_sei criada a partir de '{col_sei}'.")
+    else:
+        df["tem_sei"] = False
+        logger.info("Coluna SEI não encontrada; tem_sei = False.")
+
+    # Andamento SEI
+    col_and_sei = achar_coluna(df, ["Andamento SEI"])
+    if col_and_sei is not None:
+        df["tem_andamento_sei"] = df[col_and_sei].astype(str).str.strip().str.len() > 0
+    else:
+        df["tem_andamento_sei"] = False
+
+    # Complexidade aproximada pela 'Tipo da solicitação'
+    possiveis_tipo = [
+        "Tipo da solicitação",
+        "Tipo da Solicitação",
+        "Tipo Solicitação",
+        "tipo_solicitacao",
+    ]
+    col_tipo = achar_coluna(df, possiveis_tipo)
+
+    def classificar_complexidade(tipo: str) -> str:
+        t = str(tipo).lower()
+        if any(
+            x in t
+            for x in [
+                "dispensa",
+                "adesão",
+                "adesao",
+                "ata de registro",
+                "renovação",
+                "renovacao",
+            ]
+        ):
+            return "Baixa"
+        if any(
+            x in t
+            for x in [
+                "pregão",
+                "pregao",
+                "concorrência",
+                "concorrencia",
+                "tomada de preços",
+            ]
+        ):
+            return "Alta"
+        if t.strip() == "" or t == "nan":
+            return "Indefinida"
+        return "Média"
 
     if col_tipo is not None:
-        df["tipo_simplificado"] = df[col_tipo].apply(detectar_tipo_simplificado)
-        logger.info(f"tipo_simplificado criado a partir de '{col_tipo}'.")
+        df["complexidade_aprox"] = df[col_tipo].apply(classificar_complexidade)
+        logger.info(f"complexidade_aprox criada a partir de '{col_tipo}'.")
     else:
-        df["tipo_simplificado"] = "outros"
-        logger.warning(
-            "Coluna de 'Tipo da solicitação' não encontrada; "
-            "tipo_simplificado definido como 'outros' para todas as linhas."
+        df["complexidade_aprox"] = "Indefinida"
+        logger.info(
+            "Coluna de tipo da solicitação não encontrada; "
+            "complexidade_aprox = 'Indefinida'."
         )
 
-    # 2) SLA manual (se existir alguma coluna numérica de SLA)
-    #    Você pode adaptar esses nomes à sua planilha
-    col_sla_manual = achar_coluna(
-        df,
-        ["SLA manual", "sla_manual", "SLA", "Prazo SLA", "Prazo (dias)", "Status da Coluna M"],
-    )
+    return df
 
-    if col_sla_manual is not None:
-        df["sla_manual"] = pd.to_numeric(df[col_sla_manual], errors="coerce")
-        logger.info(f"sla_manual criado a partir de '{col_sla_manual}'.")
-    else:
-        df["sla_manual"] = np.nan
-        logger.info("Nenhuma coluna de SLA manual encontrada; sla_manual = NaN.")
 
-    # 3) SLA automático pela regra padrão
-    df["sla_auto"] = df["tipo_simplificado"].map(SLA_PADRAO).astype("float")
-
-    # 4) SLA final – manual tem prioridade, se existir
-    df["sla_final"] = df["sla_manual"].combine_first(df["sla_auto"])
-
-    # 5) Indicador de atraso
-    if "lead_time" in df.columns:
-        df["atrasado"] = (df["lead_time"] > df["sla_final"]) & df["sla_final"].notna()
-    else:
-        df["atrasado"] = False
-        logger.warning(
-            "Coluna 'lead_time' não encontrada ao aplicar SLA; "
-            "'atrasado' definido como False para todas as linhas."
+# -----------------------------------------------------------------------------
+# ETL PRINCIPAL
+# -----------------------------------------------------------------------------
+def preparar_base() -> pd.DataFrame:
+    """
+    Carrega e trata a base conforme as colunas reais da planilha.
+    """
+    if not CAMINHO_EXCEL.exists():
+        raise FileNotFoundError(
+            f"Arquivo Excel não encontrado em: {CAMINHO_EXCEL}. "
+            "No Streamlit Cloud, verifique se 'data/solicitacoes.xlsx' foi enviado para o GitHub."
         )
 
+    try:
+        logger.info(f"Lendo base de dados: {CAMINHO_EXCEL}")
+        df = pd.read_excel(CAMINHO_EXCEL)
+        df.columns = df.columns.str.strip()
+        logger.info(f"Colunas encontradas: {list(df.columns)}")
+    except Exception as e:
+        logger.error("Erro ao carregar Excel", exc_info=True)
+        raise e
+
+    df = _criar_lead_time(df)
+    df = _criar_status_macro(df)
+    df = _enriquecer_campos(df)
+
+    logger.info("Base tratada e enriquecida com sucesso.")
+    return df
+
+
+def salvar_base_parquet(df: pd.DataFrame) -> None:
+    """
+    Salva a base em Parquet (cache), tratando problemas de tipo.
+    """
+    df_clean = df.copy()
+    col_sei = achar_coluna(df_clean, ["SEI"])
+    if col_sei is not None:
+        df_clean[col_sei] = df_clean[col_sei].astype(str)
+
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    try:
+        df_clean.to_parquet(CAMINHO_PARQUET, index=False)
+        logger.info(f"Base salva como Parquet em: {CAMINHO_PARQUET}")
+    except Exception:
+        logger.error("Erro ao salvar Parquet; seguindo sem cache.", exc_info=True)
+
+
+def carregar_base_tratada() -> pd.DataFrame:
+    """
+    Carrega a base:
+    - Se Parquet existir e estiver ok, usa Parquet.
+    - Senão, roda ETL completo (Excel -> tratamento -> Parquet).
+    """
+    if CAMINHO_PARQUET.exists():
+        try:
+            df = pd.read_parquet(CAMINHO_PARQUET)
+            logger.info(f"Base carregada de Parquet: {CAMINHO_PARQUET}")
+            return df
+        except Exception:
+            logger.warning(
+                "Parquet não encontrado ou inválido; rodando ETL completo.",
+                exc_info=True,
+            )
+
+    df = preparar_base()
+    salvar_base_parquet(df)
     return df
